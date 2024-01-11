@@ -37,7 +37,7 @@ This will start the FastAPI application, and you can access it through your brow
 ## API Endpoints
 
 - `/`: Home endpoint with information about the plagiarism checker.
-- `/check`: Endpoint to submit coding files and get plagiarism results.
+- `/get_plagiarism`: Endpoint to submit coding files and get plagiarism results.
 
 ## Example Usage
 
@@ -49,7 +49,7 @@ This will start the FastAPI application, and you can access it through your brow
 
 2. Open your browser and go to `http://127.0.0.1:8000` to access the home page.
 
-3. Use the `/check` endpoint to submit coding files and receive plagiarism results.
+3. Use the post request at url `/get_plagiarism` endpoint to submit coding files and receive plagiarism results.
 
 ## Dependencies
 
